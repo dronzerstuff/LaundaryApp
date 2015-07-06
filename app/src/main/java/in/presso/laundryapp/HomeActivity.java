@@ -141,7 +141,7 @@ public class HomeActivity extends Activity {
 
         @Override
         public void onError(String message) {
-            FireToast.makeToast(getApplicationContext(), message);
+//            FireToast.makeToast(getApplicationContext(), message);
         }
     };
 

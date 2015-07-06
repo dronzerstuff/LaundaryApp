@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -26,17 +27,18 @@ public class AppRater {
     public final static String RATTING_FLAG_REMIND = "Remind me later";
     public final static String RATTING_FLAG_RATED = "Rated";
     public final static String RATTING_FLAG_KEY = "RATING_FLAG";
-    private static Button ratenow_btn,later_btn;
+    private static TextView ratenow_btn,later_btn;
     static TextView tv;
     public static void showRateDialog(final Context mContext,
                                final SharedPreferences.Editor editor) {
         final Dialog dialog = new Dialog(mContext);
-        dialog.setTitle("Rate " + APP_TITLE);
 
+      //  dialog.setTitle("Rate " + APP_TITLE);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); //before
         dialog.setContentView(R.layout.ratingdialog);
 
-        ratenow_btn = (Button) dialog.findViewById(R.id.btn_ratenw);
-        later_btn = (Button) dialog.findViewById(R.id.btn_ltr);
+        ratenow_btn = (TextView) dialog.findViewById(R.id.btn_ratenw);
+        later_btn = (TextView) dialog.findViewById(R.id.btn_ltr);
 
         tv = (TextView)dialog.findViewById(R.id.tv_rating);
 

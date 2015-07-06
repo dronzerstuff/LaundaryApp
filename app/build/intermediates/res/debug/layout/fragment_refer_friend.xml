@@ -63,7 +63,7 @@
             android:background="#8016798e"
             android:text="REFER BY SMS"
             android:singleLine="true"
-            android:textColor="#fff"
+            android:textColor="#cee15f"
             android:id="@+id/btn_refer_msg" />
 
 
@@ -81,7 +81,7 @@
             android:background="#8016798e"
             android:text="REFER BY WHATSAPP"
             android:singleLine="true"
-            android:textColor="#fff"
+            android:textColor="#cee15f"
             android:id="@+id/btn_refer_whatsapp" />
 
 

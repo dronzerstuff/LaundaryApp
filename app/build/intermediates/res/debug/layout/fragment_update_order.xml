@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/login_bg"
     android:orientation="vertical" >
 
     <LinearLayout
         android:id="@+id/linHeader"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#115DC2"
+        android:background="#88aba7"
         android:gravity="center_vertical" >
 
         <ImageView
@@ -19,21 +19,27 @@
             android:padding="10dp"
             android:src="@drawable/menu_icon" />
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingLeft="-40dp"
-            android:text="Update Order"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
+        <LinearLayout
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/update_orders2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="Update Order"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
     </LinearLayout>
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/linHeader"
-        android:background="@android:color/white" >
+        android:layout_below="@+id/linHeader" >
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -53,16 +59,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#E6E6E6"
                 android:gravity="center_horizontal"
                 android:orientation="vertical" >
 
                 <RelativeLayout
+                    android:background="#80ffffff"
                     android:id="@+id/deliverytype_layout"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:background="@color/white"
                     android:orientation="horizontal" >
 
                     <TextView
@@ -92,7 +97,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#E6E6E6"
+
                 android:gravity="center_horizontal"
                 android:orientation="vertical" >
 
@@ -103,7 +108,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/white"
+                    android:background="#80ffffff"
                     android:orientation="horizontal" >
 
                     <TextView
@@ -129,24 +134,33 @@
             </LinearLayout>
 
             <LinearLayout
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
 
-                <TextView
-                    android:layout_width="fill_parent"
+                <Button
+                    android:padding="8dp"
+                    android:background="#8016798e"
+                    android:id="@+id/textView1"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+
+                    android:layout_marginTop="10dp"
+
+
                     android:text="PICK UP ON"
-                    android:textColor="#0074CD"
-                    android:textSize="18sp"
+                    android:textColor="#cee15f"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#E6E6E6"
                 android:orientation="vertical" >
 
                 <RelativeLayout
@@ -156,8 +170,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@color/white"
+                    android:background="#80ffffff"
                     android:orientation="horizontal" >
 
                     <TextView
@@ -189,7 +202,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/white"
+                    android:background="#80ffffff"
                     android:orientation="horizontal" >
 
                     <TextView
@@ -198,7 +211,6 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
-                        
                         android:padding="10dp"
                         android:text="Time"
                         android:textColor="@android:color/black"
@@ -216,24 +228,31 @@
             </LinearLayout>
 
             <LinearLayout
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
-
-                <TextView
-                    android:layout_width="fill_parent"
+                <Button
+                    android:padding="8dp"
+                    android:background="#8016798e"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+
+                    android:layout_marginTop="10dp"
+
+
                     android:text="DELIVERY ON"
-                    android:textColor="#0074CD"
-                    android:textSize="18sp"
+                    android:textColor="#cee15f"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#E6E6E6"
                 android:gravity="center_horizontal"
                 android:orientation="vertical" >
 
@@ -244,8 +263,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@color/white"
+                    android:background="#80ffffff"
                     android:orientation="horizontal" >
 
                     <TextView
@@ -277,7 +295,7 @@
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@color/white"
+                    android:background="#80ffffff"
                     android:orientation="horizontal" >
 
                     <TextView
@@ -288,7 +306,7 @@
                         android:layout_centerVertical="true"
                         android:padding="10dp"
                         android:text="Time"
-                        android:textColor="@android:color/black"
+                        android:textColor="@android:color/white"
                         android:textSize="15sp" />
 
                     <ImageView
@@ -301,12 +319,23 @@
                         android:src="@drawable/drop_down" />
                 </RelativeLayout>
 
+
                 <Button
+                    android:layout_marginTop="10dp"
                     android:id="@+id/btnSchedule"
-                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:padding="12dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/scheduled_button" />
+                    android:background="#8016798e"
+                    android:text="SCHEDULE"
+                    android:singleLine="true"
+                    android:textColor="#cee15f" />
+
 
             </LinearLayout>
         </LinearLayout>

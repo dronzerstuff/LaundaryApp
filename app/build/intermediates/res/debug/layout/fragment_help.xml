@@ -77,7 +77,7 @@
             android:background="#8016798e"
             android:text="CALL US"
             android:singleLine="true"
-            android:textColor="#fff"
+            android:textColor="#cee15f"
             android:id="@+id/btn_call_us" />
 
         <Button
@@ -93,7 +93,7 @@
             android:background="#8016798e"
             android:text="RAISE ISSUE"
             android:singleLine="true"
-            android:textColor="#fff"
+            android:textColor="#cee15f"
             android:id="@+id/btn_raise_issue" />
 
 

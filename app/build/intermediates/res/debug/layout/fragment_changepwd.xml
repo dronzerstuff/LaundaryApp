@@ -75,7 +75,7 @@
                         android:layout_margin="10dp"
                         android:text="CHANGE PASSWORD"
                         android:textColor="#16798e"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 

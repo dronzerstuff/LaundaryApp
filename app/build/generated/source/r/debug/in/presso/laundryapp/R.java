@@ -286,12 +286,13 @@ containing a value of this type.
         public static final int textlines=0x7f020074;
         public static final int update_button=0x7f020075;
         public static final int update_orders=0x7f020076;
-        public static final int user_icon=0x7f020077;
-        public static final int user_name=0x7f020078;
-        public static final int username_line=0x7f020079;
-        public static final int wash_onn=0x7f02007a;
-        public static final int whatsup=0x7f02007b;
-        public static final int yellow_button=0x7f02007c;
+        public static final int update_orders2=0x7f020077;
+        public static final int user_icon=0x7f020078;
+        public static final int user_name=0x7f020079;
+        public static final int username_line=0x7f02007a;
+        public static final int wash_onn=0x7f02007b;
+        public static final int whatsup=0x7f02007c;
+        public static final int yellow_button=0x7f02007d;
     }
     public static final class id {
         public static final int NetworkFailedError=0x7f0a0022;
