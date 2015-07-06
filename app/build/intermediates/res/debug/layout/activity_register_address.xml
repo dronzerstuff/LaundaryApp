@@ -92,15 +92,17 @@
                     android:layout_height="wrap_content"
                     android:checked="true"
                     android:drawablePadding="10dp"
-                    android:text="  I live in Rented House"
+                    android:paddingLeft="10dp"
+                    android:text="    I live in Rented House"
                     android:textColor="@color/white" />
 
                 <RadioButton
+                    android:paddingLeft="10dp"
                     android:id="@+id/rdOwnHouse"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="10dp"
-                    android:text="  I live in my Own House"
+                    android:text="    I live in my Own House"
                     android:textColor="@color/white" />
             </RadioGroup>
             <TextView
