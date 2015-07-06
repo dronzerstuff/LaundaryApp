@@ -2,6 +2,27 @@
 <items version="2" >
 
     <item
+        jar="E:\AndroidProjects\LaundaryApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-5774b406539b2be9cf95911bc00931b87fc78f2e.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\LaundaryApp\app\build\intermediates\exploded-aar\com.github.goka.kenburnsview\library\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a4f5c6a704f8fb07658e2b1595e3b289dd966968">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-f706c67bb753453e6d143cd89db609337105f7bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\glide-3.5.2-c7df2bf64278df4f61fe1f55dcf353a255d9c407.jar" />
+    </item>
+    <item
         jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -9,18 +30,25 @@
         <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\gson-2.1-255fbf22f306b415fdac54cf41d75f4242753ca6.jar" />
     </item>
     <item
+        jar="E:\Android Development\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-f258ded88c013ff9fbfa5cc9a993cb2faf17a73d.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\LaundaryApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-8598bb89f48ed391edb3ce511f82d70d251f4dae.jar" />
+    </item>
+    <item
         jar="E:\AndroidProjects\LaundaryApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\3.1.59\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
         <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-09ef029fffb7357d36b441b7936df7c337063f2f.jar" />
-    </item>
-    <item
-        jar="E:\Android Development\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-e754fd57aa596fe27f5fa5a88f8a29bd9eca8b7f.jar" />
     </item>
 
 </items>

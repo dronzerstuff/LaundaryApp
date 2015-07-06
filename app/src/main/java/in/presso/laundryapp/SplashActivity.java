@@ -3,6 +3,7 @@ package in.presso.laundryapp;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.goka.kenburnsview.KenBurnsView;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
@@ -31,13 +32,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class SplashActivity extends Activity {
+import java.util.Arrays;
+import java.util.List;
 
+public class SplashActivity extends Activity {
+    KenBurnsView kenBurnsView ;
     private String mAppsRunningFlag;
     private Context mContext = this;
     protected int mSplashTime = 4000;
     private GoogleCloudMessaging mGcm;
-
+    public static final Integer[] IMAGES_RESOURCE = new Integer[]{
+            R.drawable.sample_3
+    };
     // private String mSenderID;
     private Dialog mDialog;
 
@@ -51,8 +57,14 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_splash);
+
+
+        kenBurnsView = (KenBurnsView) findViewById(R.id.ken_burns_view);
+
+        List<Integer> resourceIDs = Arrays.asList(IMAGES_RESOURCE);
+        kenBurnsView.initResourceIDs(resourceIDs);
+
 
     }
 
@@ -122,12 +134,12 @@ public class SplashActivity extends Activity {
                 public void run() {
                     finish();
                     if (SharedPrefUtils.getKey_login(SplashActivity.this)) {
-                        startActivity(new Intent(SplashActivity.this, HomeActivity.class));
+                       startActivity(new Intent(SplashActivity.this, HomeActivity.class));
                     } else {
                         startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                     }
                 }
-            }, 2000);
+            }, 4000);
         }
         else{
             TextView networkFailed=(TextView)findViewById(R.id.NetworkFailedError);

@@ -2,8 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
     android:orientation="vertical" >
+
+    <com.goka.kenburnsview.KenBurnsView
+        android:id="@+id/ken_burns_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <TextView
         android:id="@+id/NetworkFailedError"

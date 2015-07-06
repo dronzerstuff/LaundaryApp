@@ -15,7 +15,11 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:2:11
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
 MERGED from com.google.android.gms:play-services:3.1.59:7:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+MERGED from com.github.goka.kenburnsview:library:1.0.2:8:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
 		INJECTED from AndroidManifest.xml:0:0
@@ -64,6 +68,9 @@ ADDED from AndroidManifest.xml:25:5
 		ADDED from AndroidManifest.xml:25:22
 application
 ADDED from AndroidManifest.xml:27:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
 	android:label
 		ADDED from AndroidManifest.xml:30:9
 	android:allowBackup

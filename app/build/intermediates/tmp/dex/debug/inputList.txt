@@ -1,4 +1,8 @@
 E:\AndroidProjects\LaundaryApp\app\build\intermediates\classes\debug
+E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-f258ded88c013ff9fbfa5cc9a993cb2faf17a73d.jar
+E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-f706c67bb753453e6d143cd89db609337105f7bd.jar
 E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\gson-2.1-255fbf22f306b415fdac54cf41d75f4242753ca6.jar
+E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-8598bb89f48ed391edb3ce511f82d70d251f4dae.jar
+E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\glide-3.5.2-c7df2bf64278df4f61fe1f55dcf353a255d9c407.jar
 E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-09ef029fffb7357d36b441b7936df7c337063f2f.jar
-E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-e754fd57aa596fe27f5fa5a88f8a29bd9eca8b7f.jar
+E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-5774b406539b2be9cf95911bc00931b87fc78f2e.jar
