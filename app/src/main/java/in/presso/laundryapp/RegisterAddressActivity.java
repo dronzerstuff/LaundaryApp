@@ -91,9 +91,10 @@ public class RegisterAddressActivity extends Activity implements
                     listAreas.add(pojoArea = new Gson().fromJson(arrayAreaList
                             .getJSONObject(i).toString(), PojoArea.class));
                     listAreasName.add(pojoArea.getAreaName());
+
                     spnArea.setAdapter(new ArrayAdapter<String>(
                             RegisterAddressActivity.this,
-                            android.R.layout.simple_list_item_1, listAreasName));
+                            R.layout.spinner_item,R.id.txt1, listAreasName));
 
                 }
             } catch (JSONException e) {
@@ -246,7 +247,7 @@ public class RegisterAddressActivity extends Activity implements
                     listSocietyName.add(pojoSociety.getSocietyName());
                     spnSociety.setAdapter(new ArrayAdapter<String>(
                             RegisterAddressActivity.this,
-                            android.R.layout.simple_list_item_1,
+                            R.layout.spinner_item,R.id.txt1,
                             listSocietyName));
 
                 }

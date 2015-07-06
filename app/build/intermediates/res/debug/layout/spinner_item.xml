@@ -2,8 +2,9 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:id="@+id/txt1"
     android:gravity="left"
     android:padding="5dip"
-    android:textColor="@android:color/black"
-    android:textSize="14sp" />
+    android:textColor="#16798e"
+    android:textSize="16sp" />
 <!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/layout/spinner_item.xml -->

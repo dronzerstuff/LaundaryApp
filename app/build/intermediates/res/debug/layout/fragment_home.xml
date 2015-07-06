@@ -14,7 +14,6 @@
 
 
 
-
         <LinearLayout
 
             android:layout_weight="2"
@@ -114,22 +113,34 @@
             android:layout_height="wrap_content"
             android:visibility="gone"
             android:gravity="center"
+            android:layout_gravity="center"
             android:orientation="vertical" >
 
             <ImageView
+                android:layout_gravity="center"
                 android:id="@+id/emptyImg"
                 android:gravity="center"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/empty2" />
+
             <TextView
+
                 android:gravity="center"
                 android:layout_alignParentBottom="true"
-                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/txtNoOrderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:text="You Have No Pending Orders"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:textSize="16dp"
+                android:textColor="#16798e"
+                android:visibility="visible" />
+
+
 
             </LinearLayout>
 

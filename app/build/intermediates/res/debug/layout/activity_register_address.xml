@@ -66,7 +66,6 @@
                 android:layout_marginLeft="10dp"
                 android:background="@android:color/transparent"
                 android:paddingLeft="5dp"
-                android:popupBackground="@drawable/spin_bg"
                 android:spinnerMode="dropdown" />
 
             <Spinner
@@ -77,7 +76,6 @@
                 android:layout_marginLeft="10dp"
                 android:background="@android:color/transparent"
                 android:paddingLeft="5dp"
-                android:popupBackground="@drawable/spin_bg"
                 android:spinnerMode="dropdown" />
 
             <RadioGroup
@@ -92,12 +90,10 @@
                     android:layout_height="wrap_content"
                     android:checked="true"
                     android:drawablePadding="10dp"
-                    android:paddingLeft="10dp"
                     android:text="    I live in Rented House"
                     android:textColor="@color/white" />
 
                 <RadioButton
-                    android:paddingLeft="10dp"
                     android:id="@+id/rdOwnHouse"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"

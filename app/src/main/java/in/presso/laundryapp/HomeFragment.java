@@ -45,7 +45,7 @@ public class HomeFragment extends Fragment implements OnClickListener {
 	private int currentOrderIndex = 0;
 	private ImageView imgStatus,emptyImg;
 
-    private TextView txt_status;
+    private TextView txt_status,txtNoOrderStatus;
 
     private LinearLayout layDetails,emptyView;
     private RelativeLayout layStatus;
@@ -67,13 +67,15 @@ public class HomeFragment extends Fragment implements OnClickListener {
 
 	private void init() {
 
+        txt_status  = (TextView)mView.findViewById(R.id.txt_status);
+        txtNoOrderStatus = (TextView)mView.findViewById(R.id.txtNoOrderStatus);
 		btnNewOrder = (TextView) mView.findViewById(R.id.btnNewOrder);
 		btnCheckStatus = (TextView) mView.findViewById(R.id.btnCheckStatus);
 		btn_next = (Button) mView.findViewById(R.id.btn_next);
 		btn_prev = (Button) mView.findViewById(R.id.btn_prev);
 		imgStatus = (ImageView) mView.findViewById(R.id.imgStatus);
         emptyImg = (ImageView)mView.findViewById(R.id.emptyImg);
-        emptyImg.setColorFilter(Color.parseColor("#0266c8"));
+       // emptyImg.setColorFilter(Color.parseColor("#0266c8"));
 
 		mView.findViewById(R.id.btnMenu).setOnClickListener(this);
 		btn_next.setOnClickListener(this);
@@ -120,6 +122,7 @@ public class HomeFragment extends Fragment implements OnClickListener {
             layDetails.setVisibility(View.VISIBLE);
             layStatus.setVisibility(View.VISIBLE);
             emptyView.setVisibility(View.GONE);
+            txt_status.setVisibility(View.VISIBLE);
         }
         else{
             new AlertDialog.Builder(getActivity())
@@ -195,7 +198,7 @@ public class HomeFragment extends Fragment implements OnClickListener {
               if(arrayOrders.length()==0){
                     layDetails.setVisibility(View.GONE);
                     layStatus.setVisibility(View.GONE);
-
+                    txt_status.setVisibility(View.GONE);
                     emptyView.setVisibility(View.VISIBLE);
                 }
                 else {
