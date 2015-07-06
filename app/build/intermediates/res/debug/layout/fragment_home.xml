@@ -191,7 +191,7 @@
             android:layout_centerInParent="true"
             android:singleLine="false"
             android:lines="2"
-            android:text="dsd"
+            android:text="Pending"
             android:gravity="center"
             android:textSize="14dp"
             android:textColor="#16798e"

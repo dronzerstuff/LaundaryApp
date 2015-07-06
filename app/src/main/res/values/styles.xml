@@ -49,5 +49,23 @@
         <!-- <item name="android:button">@drawable/radiobutton_white_circle</item> -->
         <item name="android:layout_marginTop">@dimen/view_vertical_margin</item>
     </style>
+    <style name="StyledDialog" parent="@android:style/Theme.Panel">
+        <item name="android:background">@color/white</item>
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/white</item>
+        <item name="android:bottomDark">@color/white</item>
+        <item name="android:bottomMedium">@color/white</item>
+        <item name="android:centerBright">@color/white</item>
+        <item name="android:centerDark">@color/white</item>
+        <item name="android:centerMedium">@color/white</item>
+        <item name="android:fullBright">@drawable/dialog</item>
+        <item name="android:fullDark">@drawable/dialog</item>
+        <item name="android:topBright">@color/white</item>
+        <item name="android:topDark">@color/white</item>
+    </style>
 
 </resources>

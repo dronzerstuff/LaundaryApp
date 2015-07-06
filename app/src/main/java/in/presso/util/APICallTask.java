@@ -18,6 +18,8 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import in.presso.laundryapp.R;
+
 public class APICallTask extends AsyncTask<Object, Object, JSONObject> {
 
 	private String TAG = "APICallTask";
@@ -35,7 +37,7 @@ public class APICallTask extends AsyncTask<Object, Object, JSONObject> {
 		this.mListParameters = param;
 		this.showProgressDialog = showProgressDialog;
 
-		mDialog = new ProgressDialog(mContext);
+		mDialog = new ProgressDialog(mContext,R.style.StyledDialog);
 		mDialog.setCancelable(false);
 		mDialog.setMessage("Loading...");
 		mDialog.show();

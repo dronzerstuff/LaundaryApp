@@ -36,6 +36,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class HomeActivity extends Activity {
+
     private static Context mContext;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -141,7 +142,7 @@ public class HomeActivity extends Activity {
 
         @Override
         public void onError(String message) {
-//            FireToast.makeToast(getApplicationContext(), message);
+           FireToast.makeToast(getApplicationContext(), message);
         }
     };
 
