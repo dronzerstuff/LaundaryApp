@@ -108,7 +108,7 @@
                     android:gravity="center_horizontal"
                     android:padding="10dp"
                     android:text="Men&apos;s / Women&apos;s / Kids&apos;s Clothes"
-                    android:textColor="#fff"
+                    android:textColor="#cee15f"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -129,7 +129,7 @@
                     android:gravity="center_horizontal"
                     android:padding="10dp"
                     android:text="HouseHold Clothes"
-                    android:textColor="#fff"
+                    android:textColor="#cee15f"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
