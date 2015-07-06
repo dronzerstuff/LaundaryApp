@@ -170,17 +170,26 @@
                 </RelativeLayout>
             </LinearLayout>
             <LinearLayout
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
 
-                <TextView
-                    android:layout_width="fill_parent"
+                <Button
+                    android:padding="8dp"
+                    android:background="#8016798e"
+                    android:id="@+id/textView1"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+
+                    android:layout_marginTop="10dp"
+
+
                     android:text="PICK UP ON"
-                    android:textColor="#0074CD"
-                    android:textSize="18sp"
+                    android:textColor="#cee15f"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -256,17 +265,25 @@
             </LinearLayout>
 
             <LinearLayout
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
 
-                <TextView
-                    android:layout_width="fill_parent"
+                <Button
+                    android:padding="8dp"
+                    android:background="#8016798e"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="left"
+
+                    android:layout_marginTop="10dp"
+
+
                     android:text="DELIVERY ON"
-                    android:textColor="#0074CD"
-                    android:textSize="18sp"
+                    android:textColor="#cee15f"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
