@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tab_bg"
+    android:clickable="false"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blue_box"
+        android:visibility="gone" />
+
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Type"
+            android:textColor="#0074CD"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDeliveryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Date:"
+            android:textColor="#939393"
+            android:textSize="15sp"
+            android:layout_below="@+id/tvTitle"
+            android:layout_toRightOf="@+id/imageView1"
+            android:layout_marginTop="8dp" />
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status :"
+        android:textColor="#939393"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/tvTitle"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/tvDeliveryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery time :"
+        android:textColor="#939393"
+        android:textSize="15sp"
+        android:layout_alignRight="@+id/tvStatus"
+        android:layout_alignTop="@+id/tvDeliveryDate" />
+
+
+</RelativeLayout><!-- From: file:/F:/Projects/YourIM/App1/LaundaryApp/app/src/main/res/layout/view_current_order.xml -->

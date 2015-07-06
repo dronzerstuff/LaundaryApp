@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeActivity" >
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtRegisterLable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+        <View
+            android:layout_marginTop="4dp"
+            android:background="#cee15f"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/layStep1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtRegisterLable"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <EditText
+            android:id="@+id/edtName"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/user_name"
+            android:drawablePadding="5dp"
+            android:hint="Name"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="5dp"
+            android:hint="Email id"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/password_iocn"
+            android:drawablePadding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtConPassword"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/confirm_pswrd"
+            android:drawablePadding="5dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtContact"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/moible_no"
+            android:drawablePadding="5dp"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtRefCode"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/referal_code"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Referral Code"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/btnContinue"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#16798e"
+            android:text="Continue"
+            android:textColor="#cee15f"
+            android:onClick="onClick"  />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout><!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/layout/activity_register.xml -->

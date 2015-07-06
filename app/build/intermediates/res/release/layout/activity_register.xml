@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".HomeActivity" >
+
+    <TextView
+        android:id="@+id/txtRegisterLable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/lock_top"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:id="@+id/layStep1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtRegisterLable"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <EditText
+            android:id="@+id/edtName"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/user_name"
+            android:drawablePadding="5dp"
+            android:hint="Name"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="5dp"
+            android:hint="Email id"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/password_iocn"
+            android:drawablePadding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtConPassword"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/confirm_pswrd"
+            android:drawablePadding="5dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtContact"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/moible_no"
+            android:drawablePadding="5dp"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtRefCode"
+            style="@style/style_editText"
+            android:drawableBottom="@drawable/username_line"
+            android:drawableLeft="@drawable/referal_code"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Referral Code"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            style="@style/style_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/continue_btn" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/F:/Projects/YourIM/App1/LaundaryApp/app/src/main/res/layout/activity_register.xml -->

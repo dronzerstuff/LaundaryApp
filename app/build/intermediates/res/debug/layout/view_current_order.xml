@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listviewcorner"
+    android:clickable="false"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Order Type"
+            android:textColor="#174650"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status :"
+            android:textColor="#174650"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        </LinearLayout>
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#174650"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"/>
+        <TextView
+            android:id="@+id/tvDeliveryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Date:"
+            android:textColor="#174650"
+            android:textSize="12sp"
+
+            android:layout_marginTop="8dp" />
+
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/tvDeliveryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery time :"
+        android:textColor="#174650"
+        android:textSize="12sp" />
+
+
+</LinearLayout><!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/layout/view_current_order.xml -->

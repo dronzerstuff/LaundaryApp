@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Presso</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_register">Register - Step 1</string>
+
+    <string-array name="drawerItemList">
+        <item>HOME</item>
+        <item>MY ORDER</item>
+        <item>MY PROFILE</item>
+        <item>RATE LIST</item>
+        <item>REFER A FRIEND</item>
+        <item>HELP</item>
+    </string-array>
+    <string-array name="deliveryType">
+        <item>Normal</item>
+        <item>Express</item>
+    </string-array>
+
+    <string-array name="orderType">
+        <item>Ironing</item>
+        <item>Wash and Iron</item>
+        <item>Dry Cleaning</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register_address">RegisterAddressActivity</string>
+
+    <string name="termncondinlbl">By continuing, I agree PRESSO\'s User Agreement and Terms of Services</string>
+    <string name="noofitemerrormsg">Please select No of quantity between 5 and 25.</string>
+
+    <string name="str1"><ul> <li><i>first</i> item</li> <li>item 2</li> </ul></string>
+
+    <string-array name="clothNumber">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+
+    <string-array name="ironing_clothNumber">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+</resources>

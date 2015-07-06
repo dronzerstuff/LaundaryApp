@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/spinner_selector"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textColor="@android:color/black"
+    android:textSize="16dp" />
+<!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/layout/spinner_textview.xml -->

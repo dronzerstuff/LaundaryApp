@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:padding="15dp"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/layStep1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txtRegisterLable"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtRegisterLable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_marginTop="4dp"
+                android:background="#cee15f"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtHome"
+                style="@style/style_editText"
+                android:drawableLeft="@drawable/user_name"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="Home"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                style="@style/style_editText"
+                android:drawableBottom="@drawable/username_line"
+                android:drawableLeft="@drawable/user_name"
+                android:drawablePadding="5dp"
+                android:hint="Building / Flat / Other"
+                android:lines="3"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <Spinner
+                android:id="@+id/spnArea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:paddingLeft="5dp"
+                android:popupBackground="@drawable/spin_bg"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spnSociety"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:paddingLeft="5dp"
+                android:popupBackground="@drawable/spin_bg"
+                android:spinnerMode="dropdown" />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rdRentedHouse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:drawablePadding="10dp"
+                    android:text="  I live in Rented House"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rdOwnHouse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:text="  I live in my Own House"
+                    android:textColor="@color/white" />
+            </RadioGroup>
+            <TextView
+                android:textColor="#494949"
+                android:id="@+id/tv_term"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/termncondinlbl"
+                android:gravity="center"
+                android:padding="4dip"/>
+            <Button
+                android:textStyle="bold"
+                android:id="@+id/btnContinue"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#16798e"
+                android:text="Continue"
+                android:textColor="#cee15f"
+                android:onClick="onClick"  />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout><!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/layout/activity_register_address.xml -->

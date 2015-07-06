@@ -1,0 +1,4 @@
+F:\Projects\YourIM\App1\LaundaryApp\app\build\intermediates\classes\release
+F:\Projects\YourIM\App1\LaundaryApp\app\build\intermediates\pre-dexed\release\gson-2.1-c6a881858c4d299f4f9e76f88d842fbb19a52700.jar
+F:\Projects\YourIM\App1\LaundaryApp\app\build\intermediates\pre-dexed\release\classes-bd123cfd1a79afe94d8b2e09e0c6e2eefb57ede4.jar
+F:\Projects\YourIM\App1\LaundaryApp\app\build\intermediates\pre-dexed\release\support-v4-18.0.0-cf96a7e367ed6c1deb0ac47e49ca79f0ab0b2598.jar

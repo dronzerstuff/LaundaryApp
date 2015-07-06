@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\gson-2.1-255fbf22f306b415fdac54cf41d75f4242753ca6.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProjects\LaundaryApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\3.1.59\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\classes-09ef029fffb7357d36b441b7936df7c337063f2f.jar" />
+    </item>
+    <item
+        jar="E:\Android Development\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\AndroidProjects\LaundaryApp\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-e754fd57aa596fe27f5fa5a88f8a29bd9eca8b7f.jar" />
+    </item>
+
+</items>

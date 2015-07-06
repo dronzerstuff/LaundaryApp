@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.presso.laundryapp"
+    android:versionCode="17"
+    android:versionName="17.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="14" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission android:name="in.presso.laundryapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="in.presso.laundryapp.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="in.presso.laundryapp.SplashActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="in.presso.laundryapp.HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="in.presso.laundryapp.RegisterActivity"
+            android:label="@string/title_register"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="in.presso.laundryapp.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="in.presso.laundryapp.RegisterAddressActivity"
+            android:label="@string/title_activity_register_address"
+            android:screenOrientation="portrait">
+        </activity>
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="in.presso.laundryapp" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="in.presso.util.GcmIntentService" />
+
+    </application>
+</manifest>
