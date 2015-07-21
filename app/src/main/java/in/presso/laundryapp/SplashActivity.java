@@ -42,7 +42,7 @@ public class SplashActivity extends Activity {
     protected int mSplashTime = 4000;
     private GoogleCloudMessaging mGcm;
     public static final Integer[] IMAGES_RESOURCE = new Integer[]{
-            R.drawable.sample_3
+            R.drawable.splashbg
     };
     // private String mSenderID;
     private Dialog mDialog;
