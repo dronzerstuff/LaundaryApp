@@ -635,10 +635,10 @@ public class UpdateorderFragment extends Fragment implements OnClickListener {
 
                     CustomDialogBox box = new CustomDialogBox(getActivity(),"Order Update successfully !!!",R.style.CustomDialogsTheme) ;
                     box.show();
-
-                  /*  HomeActivity.show_dialog(mContext,
-							"Order Update successfully.");
-                    ((HomeActivity) mContext).displayView(1);*/
+/*
+                    HomeActivity.show_dialog(mContext,
+							"Order Update successfully.");*/
+                    ((HomeActivity) mContext).displayView(1);
 
 
 				} else {
