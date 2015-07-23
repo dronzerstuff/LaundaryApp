@@ -175,6 +175,11 @@
         <item name="android:topBright">@color/white</item>
         <item name="android:topDark">@color/white</item>
     </style>
+    <style name="CustomDialogsTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
     <style name="StyledDialog" parent="@android:style/Theme.Panel">
         <item name="android:background">@color/white</item>
         <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>

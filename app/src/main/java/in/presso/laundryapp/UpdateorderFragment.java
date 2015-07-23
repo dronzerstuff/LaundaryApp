@@ -632,12 +632,21 @@ public class UpdateorderFragment extends Fragment implements OnClickListener {
 			JSONObject object = (JSONObject) profile;
 			try {
 				if (object.getBoolean("success")) {
-					HomeActivity.show_dialog(mContext,
+
+                    CustomDialogBox box = new CustomDialogBox(getActivity(),"Order Update successfully !!!",R.style.CustomDialogsTheme) ;
+                    box.show();
+
+                  /*  HomeActivity.show_dialog(mContext,
 							"Order Update successfully.");
-                    ((HomeActivity) mContext).displayView(1);
+                    ((HomeActivity) mContext).displayView(1);*/
+
+
 				} else {
-					HomeActivity.show_dialog(mContext,
-							"Unable to update order. Try again!");
+
+                    CustomDialogBox box = new CustomDialogBox(getActivity(),"Unable to update order. Try again !!!",R.style.CustomDialogsTheme) ;
+                    box.show();
+                    /*HomeActivity.show_dialog(mContext,
+							"Unable to update order. Try again!");*/
 				}
 			} catch (JSONException e) {
 				e.printStackTrace();

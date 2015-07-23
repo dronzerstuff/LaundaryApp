@@ -851,12 +851,18 @@ public class NewOrderFragment extends Fragment implements OnClickListener {
             JSONObject object = (JSONObject) profile;
             try {
                 if (object.getBoolean("success")) {
-                    HomeActivity.show_dialog(mContext,
+
+                    CustomDialogBox box = new CustomDialogBox(getActivity(),"Order placed successfully !!!",R.style.CustomDialogsTheme) ;
+                    box.show();
+                   /* HomeActivity.show_dialog(mContext,
                             "Order placed successfully.");
-                    ((HomeActivity) mContext).displayView(0);
+                    ((HomeActivity) mContext).displayView(0);*/
                 } else {
-                    HomeActivity.show_dialog(mContext,
-                            "Unable to place order. Try again!");
+
+                    CustomDialogBox box = new CustomDialogBox(getActivity(),"Unable to place order. Try again !!!",R.style.CustomDialogsTheme) ;
+                    box.show();
+                   /* HomeActivity.show_dialog(mContext,
+                            "Unable to place order. Try again!");*/
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
