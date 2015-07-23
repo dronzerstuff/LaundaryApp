@@ -18,13 +18,14 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import in.presso.laundryapp.CircleDialog;
 import in.presso.laundryapp.R;
 
 public class APICallTask extends AsyncTask<Object, Object, JSONObject> {
 
 	private String TAG = "APICallTask";
 	private APIResponseListener mApiCallResponse;
-	private ProgressDialog mDialog;
+	private CircleDialog mDialog;
 	private Context mContext;
 	private List<NameValuePair> mListParameters;
 	private boolean showProgressDialog = true;
@@ -37,9 +38,8 @@ public class APICallTask extends AsyncTask<Object, Object, JSONObject> {
 		this.mListParameters = param;
 		this.showProgressDialog = showProgressDialog;
 
-		mDialog = new ProgressDialog(mContext,R.style.StyledDialog);
+		mDialog = new CircleDialog(mContext,0);
 		mDialog.setCancelable(false);
-		mDialog.setMessage("Loading...");
 		mDialog.show();
 		
 		
@@ -59,8 +59,7 @@ public class APICallTask extends AsyncTask<Object, Object, JSONObject> {
 		this.mListParameters = param;
 		this.showProgressDialog = showProgressDialog;
 
-		mDialog = new ProgressDialog(mContext);
-		mDialog.setMessage("Loading...");
+		mDialog = new CircleDialog(mContext,0);
 		mDialog.setCancelable(false);
 		
 		if (!this.showProgressDialog)

@@ -37,6 +37,16 @@
         <item>REFER A FRIEND</item>
         <item>HELP</item>
     </string-array>
+    <!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+    <!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string-array name="ironing_clothNumber">
         <item>1</item>
         <item>2</item>
@@ -101,7 +111,9 @@
     <color name="red">#990000</color>
     <color name="white">#ffffff</color>
     <color name="yellow">#FFCC00</color>
+    <declare-styleable name="CustomTypeface"><attr format="string" name="customTypeface"/><attr format="boolean" name="customTypefaceIgnoreParents"/></declare-styleable>
     <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="ProgressWheel"><attr format="boolean" name="progressIndeterminate"/><attr format="color" name="barColor"/><attr format="color" name="rimColor"/><attr format="dimension" name="rimWidth"/><attr format="float" name="spinSpeed"/><attr format="integer" name="barSpinCycleTime"/><attr format="dimension" name="circleRadius"/><attr format="boolean" name="fillRadius"/><attr format="dimension" name="barWidth"/></declare-styleable>
     <!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">40dp</dimen>
