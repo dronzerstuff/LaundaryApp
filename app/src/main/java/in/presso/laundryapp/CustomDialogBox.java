@@ -2,6 +2,7 @@ package in.presso.laundryapp;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -13,9 +14,9 @@ import android.widget.TextView;
 
 
     TextView txtRate,txtItemName;
-    public Activity act;
+    public Context act;
     String msg;
-    public CustomDialogBox(Activity context,String value,int theme) {
+    public CustomDialogBox(Context context,String value,int theme) {
         super(context, theme);
         this.act = context;
         this.msg = value;

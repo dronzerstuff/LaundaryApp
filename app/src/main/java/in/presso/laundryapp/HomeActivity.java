@@ -336,14 +336,20 @@ public class HomeActivity extends Activity {
     }
 
     public static void show_dialog(Context cxt, String msg) {
-        AlertDialog.Builder alert = new AlertDialog.Builder(cxt);
+        Log.e("########","CALL");
+       /* final AlertDialog.Builder alert = new AlertDialog.Builder(cxt);
         alert.setMessage(msg);
         alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
+
             }
         });
-        alert.show();
+        alert.show();*/
+
+
+        CustomDialogBox box = new CustomDialogBox(cxt,msg,R.style.CustomDialogsTheme) ;
+        box.show();
     }
 }
