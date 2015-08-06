@@ -5,9 +5,6 @@
     android:background="@drawable/login_bg"
     android:orientation="vertical" >
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -75,43 +72,57 @@
 
 
 
-
+<LinearLayout
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
         <ListView
             android:background="#b6d8d7"
             android:layout_margin="8dp"
             android:id="@+id/lstCurrentOrder"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:divider="@null"
             android:dividerHeight="0dp" />
 
-        <Button
 
-            android:padding="8dp"
-            android:background="#8016798e"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="left"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+</LinearLayout>
 
-            android:text="COMPLETED"
-            android:textColor="#cee15f"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+
+                android:padding="8dp"
+                android:background="#8016798e"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:text="COMPLETED"
+                android:textColor="#cee15f"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
         <ListView
             android:background="#b6d8d7"
             android:layout_margin="8dp"
             android:id="@+id/lstDeliveredOrder"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:divider="@null"
             android:dividerHeight="0dp">
         </ListView>
+        </LinearLayout>
+
     </LinearLayout>
 
     </LinearLayout>
-    </ScrollView>
+
 </LinearLayout>

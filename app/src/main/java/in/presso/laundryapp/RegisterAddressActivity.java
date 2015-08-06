@@ -1,5 +1,6 @@
 package in.presso.laundryapp;
 
+import in.presso.adapter.CustomSpinnerAdapter;
 import in.presso.pojo.PojoArea;
 import in.presso.pojo.PojoSociety;
 import in.presso.util.APICallTask;
@@ -62,16 +63,19 @@ public class RegisterAddressActivity extends Activity implements
                 | Paint.UNDERLINE_TEXT_FLAG);
         spnArea.setOnItemSelectedListener(this);
         txtTerm.setOnClickListener(termnCondinListener);
+
         APICallTask apiCallTask = new APICallTask(this, listenerGetAreaList,
                 null, true);
-        apiCallTask.execute("http://www.presso.in/service.svc/GetAreaList");
+       apiCallTask.execute("http://www.presso.in/service.svc/GetAreaList");
 
-        try {
+
+     try {
             objectCustomer = new JSONObject(getIntent().getStringExtra(
                     "customer"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
 
     }
 
@@ -92,9 +96,11 @@ public class RegisterAddressActivity extends Activity implements
                             .getJSONObject(i).toString(), PojoArea.class));
                     listAreasName.add(pojoArea.getAreaName());
 
-                    spnArea.setAdapter(new ArrayAdapter<String>(
+                    spnArea.setAdapter(new CustomSpinnerAdapter(RegisterAddressActivity.this,listAreasName,R.layout.spinner_layout,R.layout.spinner_dropview_layout));
+
+                   /* spnArea.setAdapter(new ArrayAdapter<String>(
                             RegisterAddressActivity.this,
-                            R.layout.spinner_item,R.id.txt1, listAreasName));
+                            R.layout.spinner_item,R.id.txt1, listAreasName));*/
 
                 }
             } catch (JSONException e) {
@@ -245,10 +251,14 @@ public class RegisterAddressActivity extends Activity implements
                             arrayAreaList.getJSONObject(i).toString(),
                             PojoSociety.class));
                     listSocietyName.add(pojoSociety.getSocietyName());
-                    spnSociety.setAdapter(new ArrayAdapter<String>(
+
+                    spnSociety.setAdapter(new CustomSpinnerAdapter(RegisterAddressActivity.this, listSocietyName, R.layout.spinner_layout, R.layout.spinner_dropview_layout));
+
+
+                    /*spnSociety.setAdapter(new ArrayAdapter<String>(
                             RegisterAddressActivity.this,
                             R.layout.spinner_item,R.id.txt1,
-                            listSocietyName));
+                            listSocietyName));*/
 
                 }
             } catch (JSONException e) {

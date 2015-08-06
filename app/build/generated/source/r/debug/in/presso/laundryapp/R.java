@@ -400,7 +400,7 @@ containing a value of this type.
     public static final class id {
         public static final int NetworkFailedError=0x7f0a0023;
         public static final int RelativeLayout1=0x7f0a004a;
-        public static final int action_settings=0x7f0a0082;
+        public static final int action_settings=0x7f0a0083;
         public static final int avatar=0x7f0a0009;
         public static final int btnCheckStatus=0x7f0a0035;
         public static final int btnContinue=0x7f0a001a;
@@ -459,7 +459,7 @@ containing a value of this type.
         public static final int imageView5=0x7f0a0066;
         public static final int imageView6=0x7f0a0069;
         public static final int img1=0x7f0a005d;
-        public static final int imgMenu=0x7f0a007f;
+        public static final int imgMenu=0x7f0a0080;
         public static final int imgStatus=0x7f0a003b;
         public static final int iv_lock=0x7f0a0029;
         public static final int iv_phone=0x7f0a002f;
@@ -492,6 +492,7 @@ containing a value of this type.
         public static final int rdRentedHouse=0x7f0a001f;
         public static final int satellite=0x7f0a0003;
         public static final int scrollView1=0x7f0a004b;
+        public static final int spID=0x7f0a007a;
         public static final int spnArea=0x7f0a001d;
         public static final int spnSociety=0x7f0a001e;
         public static final int terrain=0x7f0a0004;
@@ -512,15 +513,15 @@ containing a value of this type.
         public static final int text_ordertype=0x7f0a0040;
         public static final int text_phno=0x7f0a0052;
         public static final int textchange_pwd=0x7f0a004e;
-        public static final int tvAmount=0x7f0a0080;
-        public static final int tvDate=0x7f0a0081;
-        public static final int tvDeliveryDate=0x7f0a007d;
-        public static final int tvDeliveryTime=0x7f0a007e;
-        public static final int tvStatus=0x7f0a007c;
-        public static final int tvTitle=0x7f0a007b;
+        public static final int tvAmount=0x7f0a0081;
+        public static final int tvDate=0x7f0a0082;
+        public static final int tvDeliveryDate=0x7f0a007e;
+        public static final int tvDeliveryTime=0x7f0a007f;
+        public static final int tvStatus=0x7f0a007d;
+        public static final int tvTitle=0x7f0a007c;
         public static final int tv_rating=0x7f0a0076;
         public static final int tv_term=0x7f0a0021;
-        public static final int txt1=0x7f0a007a;
+        public static final int txt1=0x7f0a007b;
         public static final int txtForgotPassword=0x7f0a0011;
         public static final int txtHome=0x7f0a001b;
         public static final int txtItemName=0x7f0a0025;
@@ -550,12 +551,14 @@ containing a value of this type.
         public static final int fragment_update_order=0x7f030010;
         public static final int ken_burns_view=0x7f030011;
         public static final int ratingdialog=0x7f030012;
-        public static final int spinner_item=0x7f030013;
-        public static final int spinner_textview=0x7f030014;
-        public static final int view_current_order=0x7f030015;
-        public static final int view_drawer_list_item=0x7f030016;
-        public static final int view_old_orders=0x7f030017;
-        public static final int view_rate_list=0x7f030018;
+        public static final int spinner_dropview_layout=0x7f030013;
+        public static final int spinner_item=0x7f030014;
+        public static final int spinner_layout=0x7f030015;
+        public static final int spinner_textview=0x7f030016;
+        public static final int view_current_order=0x7f030017;
+        public static final int view_drawer_list_item=0x7f030018;
+        public static final int view_old_orders=0x7f030019;
+        public static final int view_rate_list=0x7f03001a;
     }
     public static final class menu {
         public static final int home=0x7f090000;

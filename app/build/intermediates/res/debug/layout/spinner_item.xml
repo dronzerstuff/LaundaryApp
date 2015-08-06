@@ -5,6 +5,6 @@
     android:id="@+id/txt1"
     android:gravity="left"
     android:padding="5dip"
-    android:textColor="#16798e"
-    android:textSize="16sp" />
+    android:textColor="#ffffff"
+    android:textSize="18sp" />
 <!-- From: file:/E:/AndroidProjects/LaundaryApp/app/src/main/res/layout/spinner_item.xml -->
