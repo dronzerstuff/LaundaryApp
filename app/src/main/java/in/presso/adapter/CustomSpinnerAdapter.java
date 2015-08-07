@@ -62,7 +62,7 @@ public class CustomSpinnerAdapter extends BaseAdapter implements SpinnerAdapter 
 
         TextView txt = (TextView)view.findViewById(R.id.spID);
         txt.setPadding(12,12,12,12);
-        txt.setGravity(Gravity.CENTER_VERTICAL);
+       // txt.setGravity(Gravity.CENTER_VERTICAL);
         txt.setText(values.get(position));
         //txt.setTextColor(parseColor("#000000"));
 

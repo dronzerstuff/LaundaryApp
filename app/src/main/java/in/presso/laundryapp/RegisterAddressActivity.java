@@ -69,7 +69,7 @@ public class RegisterAddressActivity extends Activity implements
        apiCallTask.execute("http://www.presso.in/service.svc/GetAreaList");
 
 
-     try {
+    try {
             objectCustomer = new JSONObject(getIntent().getStringExtra(
                     "customer"));
         } catch (JSONException e) {

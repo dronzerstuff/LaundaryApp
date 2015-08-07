@@ -27,7 +27,7 @@
                 android:text="Register"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:textSize="18dp" />
+                android:textSize="20dp" />
 
             <View
                 android:layout_marginTop="4dp"
@@ -36,49 +36,54 @@
                 android:layout_height="1dp"/>
 
             <TextView
+                android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:id="@+id/txtHome"
                 style="@style/style_editText"
-                android:drawableLeft="@drawable/user_name"
                 android:drawablePadding="5dp"
-                android:gravity="center_vertical"
-                android:hint="Home"
+                android:gravity="center"
+                android:hint="Home Address"
                 android:textSize="18dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
 
             <EditText
+
+                android:layout_marginLeft="14dp"
                 android:id="@+id/edtAddress"
                 style="@style/style_editText"
                 android:drawableBottom="@drawable/username_line"
-                android:drawableLeft="@drawable/user_name"
+                android:drawableLeft="@drawable/ic_communication_business"
                 android:drawablePadding="5dp"
-                android:hint="Building / Flat / Other"
+                android:hint="Enter Building / Flat / Other"
                 android:lines="3"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
 
             <Spinner
+                android:layout_marginLeft="2dp"
                 android:id="@+id/spnArea"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+
                 android:background="@android:color/transparent"
                 android:paddingLeft="5dp"
                 android:spinnerMode="dropdown" />
 
             <Spinner
+                android:layout_marginLeft="2dp"
                 android:id="@+id/spnSociety"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+
                 android:background="@android:color/transparent"
                 android:paddingLeft="5dp"
                 android:spinnerMode="dropdown" />
 
             <RadioGroup
+                android:layout_marginLeft="8dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -89,16 +94,16 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:drawablePadding="10dp"
-                    android:text="    I live in Rented House"
+                    android:drawablePadding="8dp"
+                    android:text="   I live in Rented House"
                     android:textColor="@color/white" />
 
                 <RadioButton
                     android:id="@+id/rdOwnHouse"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:drawablePadding="10dp"
-                    android:text="    I live in my Own House"
+                    android:drawablePadding="8dp"
+                    android:text="   I live in my Own House"
                     android:textColor="@color/white" />
             </RadioGroup>
             <TextView
